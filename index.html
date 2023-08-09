@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link rel="apple-touch-icon" href="./images/logo.png"> -->
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="./main.css" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./index.js"></script>
+</head>
+
+<body class="mx-auto max-w-7xl border-2">
+  <header class="flex flex-wrap justify-between items-center border-b-2 p-2">
+    <img class="w-12" src="./images/logo.png" alt="site-logo" />
+
+    <ul class="flex list-none space-x-4">
+      <li class="hover:bg-slate-100 rounded-md cursor-pointer px-1 py-2">Home</li>
+      <li class="hover:bg-slate-100 rounded-md cursor-pointer px-1 py-2">Products</li>
+      <li class="hover:bg-slate-100 rounded-md cursor-pointer px-1 py-2">About Us</li>
+    </ul>
+
+  </header>
+
+  <main class="text-center p-4">
+    <h3 class="text-2xl mt-4">Website Title</h3>
+    <p class="text-md mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit deserunt quo?</p>
+    <button class="bg-logo-700 hover:bg-logo-800 text-white  rounded-md mt-8 px-2 py-1">Know More</button>
+    <section class="products-wrapper flex flex-wrap justify-center gap-4 mt-6">
+      <div class="product w-64 border">
+        <img class="w-64" src="./images/product.jpg" alt="product-image">
+        <p>Product Name</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="product w-64 border">
+        <img class="w-64" src="./images/product.jpg" alt="product-image">
+        <p>Product Name</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="product w-64 border">
+        <img class="w-64" src="./images/product.jpg" alt="product-image">
+        <p>Product Name</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="product w-64 border">
+        <img class="w-64" src="./images/product.jpg" alt="product-image">
+        <p>Product Name</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t-2 text-center pt-2">
+    SoundMate 2030
+  </footer>
+</body>
+
+</html>
